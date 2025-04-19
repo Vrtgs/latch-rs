@@ -1,0 +1,17 @@
+[package]
+name = "latch"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+std = ["spin/std"]
+
+[dependencies]
+spin = { version = "0.10.0", default-features = false }
+
+[dev-dependencies]
+tokio = { version = "1.44.2", features = ["rt", "rt-multi-thread", "time", "macros"] }
+smol = "2.0.0"
+pollster = "0.4.0"
+async-std = { version = "1.13.1", features = ["attributes"] }
