@@ -6,7 +6,7 @@ license = "Apache-2.0 OR MIT"
 authors = ["Vrtgs"]
 repository = "https://github.com/Vrtgs/latch-rs"
 documentation = "https://docs.rs/latch"
-description = "fast and efficent "
+description = "fast and efficent Latch supporting both sync and async modes"
 categories = ["asynchronous", "no-std", "concurrency"]
 
 [features]
