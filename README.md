@@ -1,6 +1,4 @@
-I'll create comprehensive documentation for this crate based on the code provided.
-
-# Async Latch
+# Latch
 
 A lightweight, no_std compatible synchronization primitive for asynchronous Rust code.
 
